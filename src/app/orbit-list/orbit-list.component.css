@@ -16,7 +16,15 @@ table {
   background: #dad8d8;
 }
 
-.header-row {
+tr:nth-child(even) {
+    background-color: #999999;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+th {
     background: #34495E;
     color: #fff
 }
